@@ -100,7 +100,11 @@ body {
 @media (max-width: 768px) {
 
   .intro { padding: 1em; }
-  .intro__paragraph { font-size: 24px; }
+
+  .intro__paragraph,
+  .intro__language-pane {
+    font-size: 24px;
+  }
 
 }
 
@@ -109,13 +113,19 @@ body {
 /* 6 */
 @media (max-width: 414px) {
 
-  .intro__paragraph { font-size: 26px; }
+  .intro__paragraph,
+  .intro__language-pane {
+    font-size: 26px;
+  }
 
 }
 
 /* 5 */
 @media (max-width: 320px) {
 
-  .intro__paragraph { font-size: 22px; }
+  .intro__paragraph,
+  .intro__language-pane {
+    font-size: 22px;
+  }
 
 }
