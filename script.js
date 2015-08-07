@@ -7,6 +7,7 @@ ga('create', 'UA-66099824-1', 'auto');
 ga('send', 'pageview');
 
 window.onload = function(){
+
   var changeLanguage = function(e) {
     choosenLanguage = this.getAttribute('data-language')
     introSections = document.getElementsByClassName('intro')
@@ -24,4 +25,5 @@ window.onload = function(){
     var item = languageItems[i];
     item.addEventListener('click', changeLanguage, false);
   }
+
 }

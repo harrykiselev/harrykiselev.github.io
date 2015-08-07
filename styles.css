@@ -66,6 +66,7 @@ body {
   list-style-type: none;
   font-size: 34px;
   color: white;
+  padding: 0;
   position: absolute;
   right: 0;
   top: -2.5em;
@@ -103,7 +104,7 @@ body {
 
   .intro__paragraph,
   .intro__language-pane {
-    font-size: 24px;
+    font-size: 23.5px;
   }
 
 }
@@ -116,6 +117,12 @@ body {
   .intro__paragraph,
   .intro__language-pane {
     font-size: 26px;
+  }
+
+  .intro__language-pane {
+    left: 50%;
+    right: auto;
+    margin-left: -3em;
   }
 
 }
