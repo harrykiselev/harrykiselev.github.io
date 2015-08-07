@@ -9,7 +9,7 @@ body {
 .intro__paragraph {
   display: inline-block;
   margin: 0;
-  padding: 0 0.2em;
+  padding: 0 0.15em 0.05em 0.15em;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 34px;
   color: white;
