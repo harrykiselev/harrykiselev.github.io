@@ -26,6 +26,10 @@ body {
   background: #b2d7ff;
 }
 
+.intro__paragraph:not(:last-child) {
+  margin-bottom: 0.08823529em; /* 3/34px */
+}
+
 .intro__paragraph__icon {
   display: inline-block;
   padding: 0 0.1em;
@@ -44,8 +48,4 @@ body {
 
 .intro__paragraph__link:hover {
   opacity: 0.7;
-}
-
-p:not(:last-child) {
-  margin-bottom: 0.08823529em; /* 3/34px */
 }
