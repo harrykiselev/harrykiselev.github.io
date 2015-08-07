@@ -1,5 +1,7 @@
 html, body { height: 100%; }
 
+html { background-color: #7fbdff; }
+
 body {
   display: flex;
   align-items: center;
@@ -8,11 +10,12 @@ body {
   box-sizing: border-box;
   padding: 10px;
 
-  background-color: #7fbdff;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .intro {
   padding: 2em;
+  background-color: #7fbdff;
   border: 0.3em solid white;
 }
 
@@ -23,7 +26,7 @@ body {
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 34px;
   color: white;
-  background: #b2d7ff;
+  background-color: #b2d7ff;
 }
 
 .intro__paragraph:not(:last-child) {
