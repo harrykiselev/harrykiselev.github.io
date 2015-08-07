@@ -21,10 +21,17 @@ body {
   padding: 0 0.1em;
 }
 
-.intro__paragraph__icon--small-right {
-  padding-right: 0.1em;
+.intro__paragraph__link:link,
+.intro__paragraph__link:visited,
+.intro__paragraph__link:active {
+  transition: opacity 0.5s ease;
+  color: white;
+}
+
+.intro__paragraph__link:hover {
+  opacity: 0.7;
 }
 
 p:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 0.08823529em; /* 3/34px */
 }
