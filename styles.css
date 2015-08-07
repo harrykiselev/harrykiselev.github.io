@@ -46,7 +46,7 @@ body {
 }
 
 .intro__paragraph__icon-small {
-  font-size: 0,94117647em; /* 32/34px */
+  font-size: 0.94117647em; /* 32/34px */
 }
 
 .intro__paragraph__link:link,
@@ -58,4 +58,29 @@ body {
 
 .intro__paragraph__link:hover {
   opacity: 0.7;
+}
+
+/* IPad properties */
+
+@media (max-width: 768px) {
+
+  .intro { padding: 1em; }
+  .intro__paragraph { font-size: 24px; }
+
+}
+
+/* IPhone's properties */
+
+/* 6 */
+@media (max-width: 414px) {
+
+  .intro__paragraph { font-size: 26px; }
+
+}
+
+/* 5 */
+@media (max-width: 320px) {
+
+  .intro__paragraph { font-size: 22px; }
+
 }
