@@ -1,22 +1,29 @@
-html, body { height: 100%; }
+html, body { height: 100%; width: 100%; }
 
 html { background-color: #7fbdff; }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: table;
 
   box-sizing: border-box;
   padding: 10px;
 
   background-color: rgba(255,255,255,0.2);
+
+}
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .intro {
+  display: inline-block;
   padding: 2em;
   background-color: #7fbdff;
   border: 0.3em solid white;
+  text-align: center;
 }
 
 .intro__paragraph {
