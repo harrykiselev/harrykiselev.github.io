@@ -6,19 +6,25 @@ body {
   justify-content: center;
 }
 
-p {
+.intro__paragraph {
+  display: inline-block;
   margin: 0;
+  padding: 0 0.2em;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 34px;
   color: white;
-}
-
-p span {
-  display: inline-block;
   background: #b2d7ff;
-  padding: 0 0.2em;
 }
 
-p span:not(:last-child) {
+.intro__paragraph__icon {
+  display: inline-block;
+  padding: 0 0.1em;
+}
+
+.intro__paragraph__icon--small-right {
+  padding-right: 0.1em;
+}
+
+p:not(:last-child) {
   margin-bottom: 3px;
 }
