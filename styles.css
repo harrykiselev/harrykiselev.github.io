@@ -82,6 +82,7 @@ body {
 
 .intro__language-pane__item__link--active {
   text-decoration: underline;
+  cursor: default;
   color: white;
 }
 
