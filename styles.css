@@ -1,0 +1,24 @@
+html, body { height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 34px;
+  color: white;
+}
+
+p span {
+  display: inline-block;
+  background: #b2d7ff;
+  padding: 0 0.2em;
+}
+
+p span:not(:last-child) {
+  margin-bottom: 3px;
+}
