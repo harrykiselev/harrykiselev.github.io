@@ -9,7 +9,7 @@ body {
   padding: 10px;
 
   background-color: rgba(255,255,255,0.2);
-
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .vertical-align {
@@ -19,6 +19,7 @@ body {
 }
 
 .intro {
+  position: relative;
   display: inline-block;
   padding: 2em;
   background-color: #7fbdff;
@@ -30,7 +31,6 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0 0.15em 0.05em 0.15em;
-  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 34px;
   color: white;
   background-color: #b2d7ff;
@@ -58,6 +58,41 @@ body {
 
 .intro__paragraph__link:hover {
   opacity: 0.7;
+}
+
+/* Панель переключения языка */
+
+.intro__language-pane {
+  list-style-type: none;
+  font-size: 34px;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: -2.5em;
+}
+
+.intro__language-pane__item {
+  display: inline;
+}
+
+.intro__language-pane__item__link {
+  text-decoration: none;
+}
+
+.intro__language-pane__item__link--active {
+  text-decoration: underline;
+  color: white;
+}
+
+.intro__language-pane__item__link:link,
+.intro__language-pane__item__link:visited,
+.intro__language-pane__item__link:active {
+  transition: text-decoration 0.5s ease;
+  color: white;
+}
+
+.intro__language-pane__item__link:hover {
+  text-decoration: underline;
 }
 
 /* IPad properties */
