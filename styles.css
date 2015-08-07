@@ -7,6 +7,13 @@ body {
 
   box-sizing: border-box;
   padding: 10px;
+
+  background-color: #7fbdff;
+}
+
+.intro {
+  padding: 2em;
+  border: 0.3em solid white;
 }
 
 .intro__paragraph {
