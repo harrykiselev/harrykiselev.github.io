@@ -46,7 +46,7 @@ body {
 }
 
 .intro__paragraph__icon-small {
-  font-size: 32px;
+  font-size: 0,94117647em; /* 32/34px */
 }
 
 .intro__paragraph__link:link,
