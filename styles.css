@@ -77,13 +77,15 @@ body {
 }
 
 .intro__language-pane__item__link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .intro__language-pane__item__link--active {
-  text-decoration: underline;
-  cursor: default;
+  pointer-events: none;
+  text-decoration: none;
   color: white;
+  cursor: default;
+  opacity: 0.7;
 }
 
 .intro__language-pane__item__link:link,
@@ -94,7 +96,7 @@ body {
 }
 
 .intro__language-pane__item__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* IPad properties */
